@@ -13,7 +13,7 @@ then
 	sudo apt-get install -y mysql-server
 	echo "========================================="
 	echo "=============Instalasi Selesai==========="
-	echo "========================================="
+	echo "========================================"
 	exit 0 
 else
 	echo "Instalasi dibatalkan"

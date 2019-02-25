@@ -1,11 +1,5 @@
 #!/bin/bash
 
-jawaban="y"
-
-read -p "apakah kamu yakin akan melakukan setup aplikasi web ? (Y/N)" pilih;
-
-if [ $pilih == $jawaban ];
-then
 	echo "==============================="
 	echo "Downloading Data"
 	echo "==============================="
@@ -26,7 +20,3 @@ then
 	sudo mv sosial-media-master/* /var/www/html
 	echo "setup selesai"
 	exit 0
-else
-	echo "setup dibatalkan"
-	exit 1
-fi

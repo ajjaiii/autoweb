@@ -10,7 +10,7 @@ then
 	echo "Downloading Data"
 	echo "==============================="
 	cd
-	wget https://github.com/sdcilsy/sosial-media/archive/master.zip
+	wget https://github.com/ajjaiii/autoweb/raw/master/master.zip
 	echo "==============================="
 	echo "Ekstrak File"
 	echo "==============================="

@@ -14,6 +14,7 @@ then
 	echo "==============================="
 	echo "Ekstrak File"
 	echo "==============================="
+	sudo apt-get update
 	sudo apt-get install unzip
 	unzip master.zip
 	echo "==============================="
